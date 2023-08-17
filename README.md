@@ -16,7 +16,7 @@ This page is essentially only for viewing the included content. The functional f
 
 The following image shows the web application's appearance and functionality.
 
-![Alt text](image-1.png)
+![Screenshot of web application](./assets/images/image-1.png)
 
 ## Credits
 
