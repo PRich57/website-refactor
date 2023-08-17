@@ -1,13 +1,16 @@
+/* Universal selector will style all content within html element */
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
 }
 
+/* The entire body will have this color */
 body {
   background-color: #d9dcd6;
 }
 
+/* Set style for element within the header */
 header {
   padding: 20px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
@@ -16,15 +19,18 @@ header {
   color: #ffffff;
 }
 
+/* Sets style for the h1 element and .seo within h1 */
 h1 {
   display: inline-block;
   font-size: 48px;
 }
 
+/* Change color of these three letters to finish styling logo */
 .seo {
   color: #d9dcd6;
 }
 
+/* Set overall style for the nav bar */
 nav {
   padding-top: 15px;
   margin-right: 20px;
@@ -33,20 +39,24 @@ nav {
   font-size: 20px;
 }
 
+/* Set list-style-type to none removes any bullet points */
 nav ul {
   list-style-type: none;
 }
 
+/* Set the list items to be inline rather than stack */
 nav ul li {
   display: inline-block;
   margin-left: 25px;
 }
 
+/* Set style for the anchors */
 a {
   color: #ffffff;
   text-decoration: none;
 }
 
+/* Add and style background image */
 .hero {
   height: 800px;
   width: 100%;
@@ -56,12 +66,14 @@ a {
   background-position: center;
 }
 
+/* Set style of main content */
 .content {
   width: 75%;
   display: inline-block;
   margin-left: 20px;
 }
 
+/* Set style for the articles within the content section */
 article {
   margin-bottom: 20px;
   padding: 50px;
@@ -71,29 +83,35 @@ article {
   color: #ffffff;
 }
 
+/* Set size of the article images */
 article img {
   max-height: 200px;
 }
 
+/* Set location to the left for images with this class */
 .float-left {
   float: left;
   margin-right: 25px;
 }
 
+/* Set style for the h2 tags */
 h2 {
   margin-bottom: 20px;
   font-size: 36px;
 }
 
+/* Set style for the paragraph elements */
 p {
   font-size: 16px;
 }
 
+/* Set image location to the right if they have this class */
 .float-right {
   float: right;
   margin-left: 25px;
 }
 
+/* Set benefits class section style to sit vertically to the right of the article section*/
 .benefits {
   margin-right: 20px;
   padding: 20px;
@@ -105,22 +123,26 @@ p {
   background-color: #2589bd;
 }
 
+/* Set style for aside */
 aside {
   margin-bottom: 32px;
   color: #ffffff;
 }
 
+/* Set h3 element style */
 h3 {
   margin-bottom: 10px;
   text-align: center;
 }
 
+/* Set aside img style */
 aside img {
   display: block;
   margin: 10px auto;
   max-width: 150px;
 }
 
+/* Set style for the footer element */
 footer {
   padding: 30px;
   clear: both;
@@ -129,6 +151,7 @@ footer {
   text-align: center;
 }
 
+/* Set specific style for h2 within footer */
 footer h2 {
   font-size: 20px;
 }
